@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+
+body{
+  position: relative;
+}
+
+.header{
+  background: rgb(219, 219, 219);
+  width:100%;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  h2{
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  p{
+    margin-bottom: 40px;
+  }
+  button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width:120px;
+    background:rgb(186, 186, 236);   
+    color:white;
+    border:2px solid white;
+    border-radius: 50px;
+    font-size:1.1rem;
+    transition:all 0.5s ease-in-out;
+    
+  }
+}
+
+
+
+
+.check{
+  height: 40px;
+  width: 120px;
+}
+
+.long{
+  height: 2000vh;
+}
